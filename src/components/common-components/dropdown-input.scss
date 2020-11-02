@@ -1,0 +1,35 @@
+.dropdown-label {
+    display: block;
+    color: grey;
+    font-size: 16px;
+    font-weight: normal;
+    pointer-events: none;
+    transition: 300ms ease all;
+    margin-left: 5px;
+}
+
+.dropdown-element{
+    margin-top: -63px;
+    position: absolute;
+    background-color: lightslategrey;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-radius: 8px;
+    width: 100%;
+
+    div {
+        color: #ffffff;
+        padding: 8px 16px;
+        border: 1px solid transparent;
+        border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .buttons {
+        background: transparent;
+        width: 100%;
+    }
+}

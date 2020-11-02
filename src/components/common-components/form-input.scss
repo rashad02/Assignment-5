@@ -1,0 +1,44 @@
+$sub-color: grey;
+$main-color: black;
+
+.group {
+  position: relative;
+    margin: 20px 0;
+
+  .form-input, .drop-down{
+    background: none;
+    background-color: white;
+    color: grey;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 95%;
+    /* border: none; */
+    border-radius: 7px;
+    border: 1px solid #e6e6e6;
+    margin: 25px 0;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  input[type='password'] {
+    letter-spacing: 0.3em;
+  }
+
+  .form-input-label {
+    color: grey;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    transition: 300ms ease all;
+    margin-left: 5px;
+  }
+}
+
+*:focus {
+  outline: none;
+  }
+
